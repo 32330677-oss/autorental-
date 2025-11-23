@@ -1,7 +1,10 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Cars.css';
-
+import honda from '../assets/Honda.png';
+import bmw from '../assets/BMW.png';
+import civic from '../assets/Civic.png';
+import Mercedes from '../assets/Mercedes.png';
 function Cars() {
   const [selectedType, setSelectedType] = useState('All');
 
@@ -13,7 +16,7 @@ function Cars() {
       name: "Toyota Camry",
       price: "$50/day",
       type: "Sedan",
-      image: "",
+      image: civic,
       description: "Comfortable and reliable sedan perfect for city driving.",
       features: ["Automatic", "AC", "4 Seats"]
     },
@@ -21,8 +24,8 @@ function Cars() {
       id: 2,
       name: "Honda Civic",
       price: "$45/day",
-      type: "Sedan",
-      image: "",
+      type: honda,
+      image: honda,
       description: "Stylish and fuel-efficient compact car.",
       features: ["Automatic", "AC", "5 Seats"]
     },
@@ -31,7 +34,7 @@ function Cars() {
       name: "BMW X5",
       price: "$120/day",
       type: "SUV",
-      image: "",
+      image: bmw,
       description: "Luxury SUV with premium features and comfort.",
       features: ["Automatic", "AC", "7 Seats", "GPS"]
     },
@@ -40,7 +43,7 @@ function Cars() {
       name: "Mercedes C-Class",
       price: "$100/day",
       type: "Luxury",
-      image: "",
+      image: Mercedes,
       description: "Elegant and powerful luxury sedan.",
       features: ["Automatic", "AC", "5 Seats", "Premium Sound"]
     }
