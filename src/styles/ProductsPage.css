@@ -1,0 +1,36 @@
+.products-page {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f8f9fa;
+    min-height: 80vh;
+}
+
+.products-page h1 {
+    color: #2c3e50;
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.products-page p {
+    color: #7f8c8d;
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 768px) {
+    .products-page {
+        padding: 20px 15px;
+    }
+
+    .products-page h1 {
+        font-size: 2rem;
+    }
+
+    .products-page p {
+        font-size: 1.1rem;
+    }
+}
