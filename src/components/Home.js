@@ -29,7 +29,6 @@ function Home() {
           <p>Find your perfect car, auto parts</p> {/* comment for em to name as this name to make a right dom*/}
           <div className="cta-buttons">
             <Link to="/cars" className="cta-btn">Rent a Car</Link>
-            <Link to="/car-parts" className="cta-btn secondary">Buy Parts</Link>
           </div>
         </div>
       </section>
