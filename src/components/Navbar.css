@@ -1,4 +1,4 @@
-/* خلفية النافبار */
+
 .navbar {
   background: #111; 
   padding: 15px 25px;
@@ -7,13 +7,13 @@
   align-items: center;
 }
 
-/* اسم الموقع */
+
 .nav-brand h2 {
   color: #fff;
   margin: 0;
 }
 
-/* الروابط الرئيسية */
+
 .nav-links a {
   color: #e5e5e5;
   margin-left: 20px;
