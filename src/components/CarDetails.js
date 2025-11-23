@@ -59,7 +59,7 @@ function CarDetails() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    alert(`✅ Booking confirmed for ${car.name}!\nWe will contact you at ${formData.phone}`);
+    alert(`Booking confirmed for ${car.name}!\nWe will contact you at ${formData.phone}`);
     navigate('/');
   };
 

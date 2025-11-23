@@ -16,7 +16,6 @@ function Contact() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle form submission here
     alert('We will get back to you soon !');
     setFormData({ name: '', email: '', phone: '', subject: '', message: '' });
   };
