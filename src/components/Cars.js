@@ -55,7 +55,6 @@ function Cars() {
     <div className="cars">
       <div className="cars-header">
         <h1>Available Cars</h1>
-        <Link to="/booking" className="btn btn-primary">Book a Car</Link>
       </div>
 
       <div className="cars-controls">
@@ -94,7 +93,7 @@ function Cars() {
                   <span key={index} className="feature-tag">{feature}</span>
                 ))}
               </div>
-              <Link to={`/car/${car.id}`} className="btn btn-primary">View Details</Link>
+              <Link to={`/CarDetails/${car.id}`} className="btn btn-primary">Rent a Car</Link>
             </div>
           </div>
         ))}

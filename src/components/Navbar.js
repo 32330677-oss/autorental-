@@ -12,7 +12,6 @@ function Navbar() {
         <Link to="/">Home</Link>
         <Link to="/about">About</Link>
         <Link to="/cars">Cars</Link>  
-        <Link to="/car-parts">Car Parts</Link>
         <Link to="/contact">Contact</Link>
         <Link to="/login" className="btn-login">Login</Link>
       </div>

@@ -30,7 +30,7 @@ function Login() {
     <div className="login-container">
       <div className="login-card">
         <div className="login-header">
-          <h2>Welcome to AutoRental</h2>
+          <h2>Welcome to Employee Dashboard </h2>
           <p>Sign in to your account</p>
         </div>
 
