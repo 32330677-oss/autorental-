@@ -6,7 +6,7 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import './App.css';
-
+import Cars from './components/Cars';
 function App() {
   return (
     <Router>
@@ -17,7 +17,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
-            <Route path="/car/:id" element={<CarDetails />} />
+            <Route path="/cars" element={<Cars />}/>
           </Routes>
         </main>
         <Footer />
