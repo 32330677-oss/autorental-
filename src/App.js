@@ -7,6 +7,7 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import './App.css';
 import Cars from './components/Cars';
+import Login from './components/Login';
 function App() {
   return (
     <Router>
@@ -18,6 +19,7 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/cars" element={<Cars />}/>
+            <Route path="/login" element={<Login />}/>
           </Routes>
         </main>
         <Footer />
