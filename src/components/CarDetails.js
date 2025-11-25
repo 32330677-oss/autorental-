@@ -6,7 +6,7 @@ function CarDetails() {
   const { id } = useParams();
   const navigate = useNavigate();
 
-  // بيانات السيارات
+ 
   const cars = {
     1: {
       name: "Toyota Camry",
@@ -40,7 +40,7 @@ function CarDetails() {
 
   const car = cars[id] || cars[1];
 
-  // حالة نموذج الحجز
+  
   const [formData, setFormData] = useState({
     name: '',
     email: '',
